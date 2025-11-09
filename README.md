@@ -38,8 +38,8 @@ The project implements a robust regression pipeline combining data preprocessing
 
 ## Usage
 ```bash
-git clone https://github.com/akshit-a9/salary-prediction.git
-cd salary-prediction
+git clone https://github.com/akshit-a9/salary_prediction.git
+cd salary_prediction
 pip install -r requirements.txt
 jupyter notebook attempt1.ipynb
 ```
