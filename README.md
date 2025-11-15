@@ -8,7 +8,6 @@ The objective is to predict the average salary across global cities while accoun
 
 ## Evolution Across Attempts (1–8)
 
-Below is a concise, chronological summary of how the pipeline changed across attempts. Only the main differences are highlighted.
 
 - **Attempt 1**  
   Initial baseline. Merged `cost_of_living.csv` into train and test, applied basic cleaning, log-transformed the target, and used GroupKFold by city. Trained LightGBM and CatBoost regressors and blended their predictions with a simple weighted average.
